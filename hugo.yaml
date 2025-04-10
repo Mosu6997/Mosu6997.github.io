@@ -1,4 +1,4 @@
-module:
+dmodule:
   hugoVersion:
     min: "0.142.0"
     extended: true
@@ -23,3 +23,12 @@ module:
     target: static/files
   - source: ../../node_modules/katex/dist/fonts
     target: static/fonts
+
+#---------------------------------------------------------------
+darkBackground: "images/default-background.webp"
+#---------------------------------------------------------------
+params:
+  features:
+    darkMode:
+      enable: true
+#---------------------------------------------------------------
